@@ -1,0 +1,281 @@
+
+body{
+  height: 100vh;
+  
+  width: 100%;
+  margin: 0;
+  background-size: cover;
+}
+.thewhole{
+  background-image: url(assets/coffee.png);
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  
+ /* overflow: hidden;*/
+  
+  background-size: cover;
+}
+.thebar{
+  display: flex;
+  justify-content: left;
+  color: white;
+  margin: 0;
+  width: 100%;
+  background-color:rgb(94, 8, 8);
+}
+.thebar .theicon{
+  width: 20px;
+  padding-right: 10px;
+  padding-left: 20px;
+  height: 25px;
+  padding-top: 25px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.thebar h1{
+  padding-right: 650px;
+}
+.thebar .links{
+  font-size: 20px;
+  padding-top: 27px;
+  padding-right: 30px;
+  color:white ;
+  text-decoration: none;
+  cursor: pointer;
+}
+.thebody{
+  display: flexbox;
+  justify-items: left;
+  padding-top: 100px;
+  padding-left: 45px;
+}
+.thebody .yellow{
+  color:rgba(255, 200, 16,0.7);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 50px;
+}
+.thebody .thehead{
+  font-weight: bold;
+  font-size:40px ;
+  color: white;
+}
+.thebody p{
+  color: white;
+  font-size: 20px;
+}
+.thebody .order{
+  border: none;
+  border-radius: 12px;
+  background-color: rgba(255, 200, 16,0.7);
+  padding: 10px;
+  margin-right: 30px;
+  width: 100px;
+  font-size: 15px;
+  font-family: 'Times New Roman', Times, serif;
+  cursor: pointer;
+}
+.thebody .contact{
+  border-radius: 12px;
+  padding: 10px;
+  width: 100px;
+  background-color: white;
+  font-size: 15px;
+  font-family: 'Times New Roman', Times, serif;
+  cursor: pointer;
+}
+.thebar .links:hover{
+  border-radius: 12px;
+  height: 3px;
+  background-color: rgba(255, 200, 16,0.7);
+  color: black;
+margin-top: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  margin-bottom: 20px;
+  padding-bottom: 29px;
+  padding-top: 5px;
+  text-align: center;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.thebody .contact:hover{
+  border: none;
+  border-radius: 12px;
+  background-color: rgba(255, 200, 16,0.7);
+  padding: 10px;
+  margin-right: 30px;
+  width: 100px;
+  font-size: 15px;
+  font-family: 'Times New Roman', Times, serif;
+}
+.thebody .order:hover{
+  border-radius: 12px;
+  padding: 10px;
+  width: 100px;
+  background-color: white;
+  font-size: 15px;
+  font-family: 'Times New Roman', Times, serif;
+  cursor: pointer;
+}
+.thebar{
+position: fixed;
+}
+.thewholes{
+  background-color: azure;
+  margin-top: 170px;
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  justify-content: left;
+   gap: 300px;
+}
+.thewholes .left{
+  margin-top: 20%;
+ margin-left: 40px;
+}
+.left img{
+  border-radius: 50%;
+}
+.thewholes .right{
+  margin-top: 18%;
+  margin-left: 40px;
+}
+.thewholes .right h1{
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-bottom: 12px;
+  
+}
+.thewholes .right p{
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+}
+.thewholes .right .icons{
+  display: flex;
+  justify-content: center;
+
+  gap: 5px;
+}
+.thewholes .right .icons img{
+  height: 30px;
+}
+.thewholes .right .icons a:hover{
+  background-color: rgba(255, 200, 16,0.7);
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+
+
+.themenu{
+  background-color: black;
+  height: fit-content;
+  width: 100%;
+}
+.themenu .theheads{
+  text-align: center;
+  color: white;
+   padding-top: 7%;
+  font-size: 20px;
+}
+.themenu .theitems{
+  display: flex;
+  justify-content:left;
+  gap: 100px;
+  margin-left: 100px;
+  margin-right: 30px;
+ 
+
+}
+.themenu .theitems img{
+  height: 300px;
+  width: 300px;
+  padding-bottom: 20px;
+  padding-top: 50px;
+}
+.themenu .theitems p{
+  color: white;
+}
+
+@media screen and (max-width: 900px) 
+{.thebar {
+ display: block;
+ position: fixed;
+ left: 0;
+ top: 0;
+ width: 300px;
+ height: 100%;
+ background-color: white;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ padding-top: 100px;
+ 
+}
+.thewhole .thebar .links{
+  color: black;
+
+}.thebar .coffeename{
+  color: black;
+}
+
+}
+/* Testimonials Section */
+.testimon {
+  padding: 40px;
+  background-color: #fdf4e3;
+  text-align: center;
+  height: 100vh;
+  padding-top: 200px;
+}
+
+.testimon h2 {
+  font-size: 2rem;
+  color: #6b3e26;
+  margin-bottom: 20px;
+}
+
+.testimon p {
+  font-style: italic;
+  margin: 10px auto;
+  max-width: 600px;
+  color: #444;
+}
+
+/* Gallery Section */
+.gallery {
+  padding: 40px;
+  background-color: #fff9f2;
+  text-align: center;
+  height: 100vh;
+  padding-top: 200px;
+}
+
+.gallery h2 {
+  font-size: 2rem;
+  color: #6b3e26;
+  margin-bottom: 20px;
+  
+}
+
+.gallery img {
+  width: 200px;
+  margin: 10px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Contact Section */
+.contact-section {
+  padding: 40px;
+  background-color: #f1e4d1;
+  text-align: center;
+  height: 100vh;
+  padding-top: 200px;
+}
+
+.contact-section h2 {
+  font-size: 2rem;
+  color: #6b3e26;
+
+}
